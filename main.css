@@ -45,6 +45,15 @@ margin: 0px 10px;
     display: block;
     }
     .list_link {
-    height: 300px;
+        width: 50%;
+        background: black;
+        height: 150px;
+        margin: auto;
+    
+    }
+    .list_link > a {
+      
+    text-align: center;
+
     }
 }
