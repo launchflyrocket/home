@@ -1,4 +1,6 @@
-
+.cart a {
+    text-decoration: none;
+}
 /* Text Card - Nome Status Preço */
 .name-theme .name h1 {
     font-size: 26px;
@@ -32,6 +34,7 @@
     color: rgb(108, 122, 137);
     font-size: 16px;
     font-weight: 400;
+    text-align: center;
 }
 .name-theme {
     display: flex;
@@ -58,17 +61,9 @@
     font-weight: 900;
     letter-spacing: 2px;
     text-transform: uppercase;
+    margin: 15px;
 }
 .btn_for_cart {
-    display: flex;
-    text-align: center;
-}
 
-.btn_for_cart .btn_buy{
-    width: 50%;
-    text-align: center;
-}
-.btn_for_cart .btn_view{
-    width: 50%;
     text-align: center;
 }

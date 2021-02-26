@@ -3,7 +3,7 @@
     background: black;
     height: 900px;
 }
-.img_shop_mob {
+.img_cart {
     width: 100%;
    }
 .list_link > a {
@@ -22,7 +22,7 @@
     flex-flow: wrap;
     justify-content: center;
    }
-   .cart_shop_mob {
+   .cart {
     display: inline-block;
     max-width: 350px;
     margin-left: 0px;
