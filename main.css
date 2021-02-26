@@ -16,6 +16,9 @@ margin: 20px 0px;
 font-size: 30px;
 text-align: center;
 }
+.list_link a:hover {
+    color: blueviolet;
+}
 .wrap {
 display: flex;
 }
