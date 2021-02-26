@@ -1,69 +1,67 @@
 .cart a {
-    text-decoration: none;
+text-decoration: none;
 }
 /* Text Card - Nome Status Preço */
 .name-theme .name h1 {
-    font-size: 26px;
-    color: #2a2f36;
-    font-weight: 500;
+font-size: 26px;
+color: #2a2f36;
+font-weight: 500;
 }
 .name-theme .status h2 {
-    font-size: 26px;
-    color: black;
-    background: #dc5b5d;
-    color: #fff;
-    text-transform: uppercase;
-    letter-spacing: .1em;
-    vertical-align: middle;
-    border-radius: 3px;
-    font-size: 14px;
-
-    margin: 20px 0px;
-    padding: 10px;
+font-size: 26px;
+color: black;
+background: #dc5b5d;
+color: #fff;
+text-transform: uppercase;
+letter-spacing: .1em;
+vertical-align: middle;
+border-radius: 3px;
+font-size: 14px;
+margin: 20px 0px;
+padding: 10px;
 }
 .name-theme .price h3 {
-    color: #abb7b7;
-    font-weight: 300;
-    font-size: 17px;
-    letter-spacing: .04em;
+color: #abb7b7;
+font-weight: 300;
+font-size: 17px;
+letter-spacing: .04em;
 }
 .title .center .description {
 
 }
 .title .center .description h4 {
-    color: rgb(108, 122, 137);
-    font-size: 16px;
-    font-weight: 400;
-    text-align: center;
+color: rgb(108, 122, 137);
+font-size: 16px;
+font-weight: 400;
+text-align: center;
 }
 .name-theme {
-    display: flex;
+display: flex;
 }
 .name {
-    width: 30%;
+width: 30%;
 }
 .status {
-    width: 50%;
-    text-align: center;
+width: 50%;
+text-align: center;
 }
 .price {
-    width: 30%;
-    text-align: end;
+width: 30%;
+text-align: end;
 }
 /* Buttons Cart - Buy  & Views */
 .btn_for_cart a {
-    background-color: #1db954;
-    padding: 10px 30px;
-    color: white;
-    text-decoration: none;
-    font-size: 18px;
-    border-radius: 20px;
-    font-weight: 900;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-    margin: 15px;
+background-color: #1db954;
+padding: 10px 30px;
+color: white;
+text-decoration: none;
+font-size: 18px;
+border-radius: 20px;
+font-weight: 900;
+letter-spacing: 2px;
+text-transform: uppercase;
+margin: 15px;
 }
 .btn_for_cart {
-
-    text-align: center;
+text-align: center;
 }
