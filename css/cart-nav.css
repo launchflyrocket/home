@@ -1,0 +1,152 @@
+/* Nav Link */
+
+.list_link {
+    width: 15%;
+    background: transparent;
+    height: 900px;
+}
+
+.img_cart {
+    width: 100%;
+}
+
+.list_link>a {
+    display: block;
+    color: black;
+    font-size: 16px!important;
+    text-decoration: none;
+    margin: 20px 0px;
+    font-size: 30px;
+    text-align: end;
+}
+
+.list_link a:hover {
+    color: blueviolet;
+}
+
+.wrap {
+    display: flex;
+}
+
+.grid {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+}
+
+.cart {
+    display: inline-block;
+    max-width: 300px;
+    height: 400px;
+    margin-left: 0px;
+    border: 1px solid grey;
+    padding: 10px 10px 10px 10px;
+    border-radius: 15px 15px 15px 15px;
+    margin: 0px 10px;
+}
+
+@media (max-width:768px) {
+    /* Nav Cart */
+    .grid {
+        display: block;
+        background: var(--indigo);
+        overflow: auto;
+        white-space: nowrap;
+        padding: 24px;
+    }
+    /* Cart Nav */
+    .wrap {
+        display: block;
+    }
+    .list_link {
+        width: 50%;
+        /* background: black; */
+        height: 150px;
+        margin: auto;
+    }
+    .list_link>a {
+        text-align: center;
+    }
+    .title .center .description h4 {
+        white-space: break-spaces;
+    }
+}
+
+.cart a {
+    text-decoration: none;
+}
+
+/* Text Card - Nome Status Preço */
+
+.name-theme .name h1 {
+    font-size: 26px;
+    color: #2a2f36;
+    font-weight: 500;
+}
+
+.name-theme .status h2 {
+    font-size: 26px;
+    color: black;
+    background: #dc5b5d;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    vertical-align: middle;
+    border-radius: 3px;
+    font-size: 14px;
+    margin: 20px 0px;
+    padding: 10px;
+}
+
+.name-theme .price h3 {
+    color: #abb7b7;
+    font-weight: 300;
+    font-size: 17px;
+    letter-spacing: .04em;
+}
+
+.title .center .description {}
+
+.title .center .description h4 {
+    color: rgb(108, 122, 137);
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.name-theme {
+    display: flex;
+}
+
+.name {
+    width: 30%;
+}
+
+.status {
+    width: 50%;
+    text-align: center;
+}
+
+.price {
+    width: 30%;
+    text-align: end;
+}
+
+/* Buttons Cart - Buy  & Views */
+
+.btn_for_cart a {
+    background-color: #1db954;
+    padding: 12px 5px;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 20px;
+    font-weight: 900;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin: 15px;
+}
+
+.btn_for_cart {
+    text-align: center;
+}
