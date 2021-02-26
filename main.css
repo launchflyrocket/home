@@ -59,4 +59,7 @@ margin: 0px 10px;
     .list_link > a {
     text-align: center;
     }
+    .title .center .description h4 {
+        white-space: break-spaces;
+    }
 }
