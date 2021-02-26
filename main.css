@@ -1,6 +1,7 @@
+/* Nav Link */
 .list_link {
 width: 15%;
-background: black;
+background: transparent;
 height: 900px;
 }
 .img_cart {
@@ -8,11 +9,12 @@ width: 100%;
 }
 .list_link > a {
 display: block;
-color: white;
+color: black;
 font-size: 36px;
 text-decoration: none;
 margin: 20px 0px;
 font-size: 30px;
+text-align: center;
 }
 .wrap {
 display: flex;
@@ -45,15 +47,12 @@ margin: 0px 10px;
     display: block;
     }
     .list_link {
-        width: 50%;
-        background: black;
-        height: 150px;
-        margin: auto;
-    
+    width: 50%;
+    background: black;
+    height: 150px;
+    margin: auto;
     }
     .list_link > a {
-      
     text-align: center;
-
     }
 }
