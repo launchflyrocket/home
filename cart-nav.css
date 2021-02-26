@@ -1,8 +1,38 @@
+
+/* Text Card - Nome Status Preço */
 .name-theme .name h1 {
     font-size: 26px;
-    color: black;
+    color: #2a2f36;
+    font-weight: 500;
 }
-/* Text Card */
+.name-theme .status h2 {
+    font-size: 26px;
+    color: black;
+    background: #dc5b5d;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    vertical-align: middle;
+    border-radius: 3px;
+    font-size: 14px;
+
+    margin: 20px 0px;
+    padding: 10px;
+}
+.name-theme .price h3 {
+    color: #abb7b7;
+    font-weight: 300;
+    font-size: 17px;
+    letter-spacing: .04em;
+}
+.title .center .description {
+
+}
+.title .center .description h4 {
+    color: rgb(108, 122, 137);
+    font-size: 16px;
+    font-weight: 400;
+}
 .name-theme {
     display: flex;
 }
@@ -16,4 +46,29 @@
 .price {
     width: 30%;
     text-align: end;
+}
+/* Buttons Cart - Buy  & Views */
+.btn_for_cart a {
+    background-color: #1db954;
+    padding: 10px 30px;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 20px;
+    font-weight: 900;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+.btn_for_cart {
+    display: flex;
+    text-align: center;
+}
+
+.btn_for_cart .btn_buy{
+    width: 50%;
+    text-align: center;
+}
+.btn_for_cart .btn_view{
+    width: 50%;
+    text-align: center;
 }
