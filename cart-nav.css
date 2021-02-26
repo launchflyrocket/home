@@ -1,0 +1,19 @@
+.name-theme .name h1 {
+    font-size: 26px;
+    color: black;
+}
+/* Text Card */
+.name-theme {
+    display: flex;
+}
+.name {
+    width: 30%;
+}
+.status {
+    width: 50%;
+    text-align: center;
+}
+.price {
+    width: 30%;
+    text-align: end;
+}

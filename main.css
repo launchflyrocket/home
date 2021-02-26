@@ -12,6 +12,7 @@
     font-size: 36px;
     text-decoration: none;
     margin: 20px 0px;
+    font-size: 30px;
 }
 .wrap {
     display: flex;
@@ -19,6 +20,7 @@
 .grid {
     display: flex;
     flex-flow: wrap;
+    justify-content: center;
    }
    .cart_shop_mob {
     display: inline-block;
