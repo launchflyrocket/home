@@ -10,11 +10,11 @@ width: 100%;
 .list_link > a {
 display: block;
 color: black;
-font-size: 36px;
+font-size: 16px!important;
 text-decoration: none;
 margin: 20px 0px;
 font-size: 30px;
-text-align: center;
+text-align: end;
 }
 .list_link a:hover {
     color: blueviolet;
