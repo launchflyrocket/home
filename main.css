@@ -52,7 +52,7 @@ margin: 0px 10px;
     }
     .list_link {
     width: 50%;
-    background: black;
+    /* background: black; */
     height: 150px;
     margin: auto;
     }
