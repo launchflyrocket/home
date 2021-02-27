@@ -6,5 +6,4 @@
 
 
 Blog
-Sobre
-Suporte ✓
+Sobre ✓
