@@ -1,5 +1,5 @@
 01 Carousel
-02 Ligar carrinho UOL
+02 Ligar carrinho UOL ✓
 03 
 04 
 05 clientes também compraram
