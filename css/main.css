@@ -207,3 +207,45 @@ input[type="submit"]:hover{
         /* padding: 0px; */
     }
 }
+
+/* Suporte Import CSS */
+.width_suporte {
+
+}
+.suporte .width_suporte .text{
+  width: 50%;
+  margin: auto;
+}
+.suporte {
+  height: 500px;
+  text-align: center;
+  margin-top: 90px;
+}
+.suporte a {
+  background: red;
+padding: 15px 40px;
+color: wheat;
+border-radius: 50px;
+text-decoration: none;
+font-weight: bold;
+font-size: 26px;
+text-transform: uppercase;
+}
+.suporte .width_suporte .text h1 {
+  text-align: left;
+}
+.suporte .width_suporte .text h2 {
+  text-align: left;
+}
+@media (max-width:768px) {
+  .suporte {
+    width: 100%;
+    margin: auto;
+    margin-top: 90px;
+  }
+  .suporte .width_suporte .text {
+    width: 90%;
+    margin: auto;
+  }
+}
+/* Suporte Import CSS End */
