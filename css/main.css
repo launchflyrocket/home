@@ -252,3 +252,15 @@ text-transform: uppercase;
   }
 }
 /* Suporte Import CSS End */
+
+/* Nav link efeect */
+.nav_efeect {
+  border-bottom: 2px solid rgba(0, 0, 0, 0);
+}
+.nav_efeect:hover {
+  border-bottom: 2px solid black;
+}
+.active {
+  border-bottom: 2px solid black;
+}
+/* Nav link efeect End*/
