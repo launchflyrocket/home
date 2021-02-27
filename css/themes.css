@@ -12,7 +12,9 @@
     display: flex;
     justify-content: center;
 }
-
+.title .center .description h4 {
+    background: black;
+}
 .img_theme_desktop {
     width: 90%;
     margin: auto;
@@ -38,6 +40,9 @@
     background: linear-gradient(to right, #009fff, #ec2f4b);
     /* background: grey; */
     height: 500px;
+    border: 1px solid #4b00ff;
+    border-radius: 20px;
+    box-shadow: 10px 10px #00ffdc;
 }
 
 @media (max-width:768px) {

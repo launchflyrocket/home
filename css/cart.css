@@ -119,11 +119,14 @@
 }
 
 .title .center .description h4 {
-    color: rgb(108, 122, 137);
+    color: rgb(255 255 255);
     font-size: 16px;
     font-weight: 400;
     text-align: justify;
     padding: 10px;
+    
+    width: 90%;
+    margin: auto;
 }
 
 .name-theme {
