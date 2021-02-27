@@ -38,11 +38,13 @@ body, html {
 
 .footer .width_center .icons {
     width: 90%;
+    margin: auto;
 }
 
 .footer .copy {
     width: 90%;
     text-align: center;
+    margin: auto;
 }
 
 .footer .copy span {
