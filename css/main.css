@@ -59,3 +59,49 @@ body, html {
 }
 
 /* Footer Import End */
+
+/* Chat Import CSS */
+.chat span {
+    background: red;
+    padding: 5px 9px;
+    position: absolute;
+    border-radius: 10px;
+    font-size: 7px;
+    color: white;
+    left: 48px;
+    top: 1px;
+    font-weight: 900;
+   }
+   .chat {
+    position: fixed;
+    bottom: 30px;
+    left: 30px;
+    z-index: 99;
+   }
+   .chat a {
+    margin: 0px 10px;
+    font-size: 45px;
+    color: green;
+   }
+   .chat {
+    position: fixed;
+    bottom: 10px;
+    left: 15px;
+    z-index: 99;
+    background: #27D043;
+    border-radius: 100%;
+    padding: 10px 7px;
+   }
+   .chat a {
+    margin: 0px 10px;
+    font-size: 50px;
+    color: white;
+   }
+   @media (max-width:768px) {
+     .chat a {
+      margin: 0px 10px;
+      font-size: 40px;
+      color: white;
+     }
+   }
+/* Chat Import CSS End */

@@ -1,5 +1,5 @@
 01 Carousel
-02 WhatsApp
+02 Ligar carrinho UOL
 03 Newsletters
 04 Upload static themes
 05 clientes também compraram
