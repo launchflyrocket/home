@@ -222,7 +222,7 @@ input[type="submit"]:hover{
   margin-top: 90px;
 }
 .suporte a {
-  background: red;
+  background-color: #1db954;
 padding: 15px 40px;
 color: wheat;
 border-radius: 50px;
@@ -230,6 +230,9 @@ text-decoration: none;
 font-weight: bold;
 font-size: 26px;
 text-transform: uppercase;
+}
+.suporte a:hover {
+  background:  rgb(30, 215, 96);
 }
 .suporte .width_suporte .text h1 {
   text-align: left;

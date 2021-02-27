@@ -1,8 +1,8 @@
-01 Carousel
+01 Carousel.
 02 Ligar carrinho UOL ✓
 03 
 04 
-05 clientes também compraram
+05 clientes também compraram.
 
 
 Blog
