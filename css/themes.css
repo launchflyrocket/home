@@ -4,6 +4,7 @@
 .boogie-down {
     width: 90%;
     display: flex;
+    justify-content: center;
 }
 .img_theme_desktop {
     width: 90%;
