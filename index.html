@@ -7,11 +7,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+    <!-- Nav Hamburger Cloudflare -->
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>
+     <!-- CSS Import -->
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/cart.css">
+    <link rel="stylesheet" href="css/nav.css">
 </head>
 
 <body>
+    <div class="wrapper">
+        <div class="nav-overlay">
+            <a class="toggle-nav"><i class="fa fa-times"></i></a>
+            <a href="#">Skills</a>
+            <a href="#">Portfolio</a>
+            <a href="#">Hire</a>
+        </div>
+
+        <nav>
+            <div class="container nav">
+                <span><a href="index.html"><i class="fas fa-rocket"></i></a></span>
+                <div class="nav-items">
+                    <a href="#">Skills</a>
+                    <a href="#">Portfolio</a>
+                    <a href="#">Hire</a>
+                    <a class="toggle-nav"><i class="fa fa-bars"></i></a>
+                </div>
+            </div>
+        </nav>
+    </div>
     <div class="wrap">
         <!-- Nav Cart -->
         <div class="list_link">
@@ -24,9 +48,7 @@
 
             <!-- Samba -->
             <div class="cart"><a href="samba-theme/index.html">
-                    <img class="img_cart effect"
-                        src="static/samba.jpg"
-                        alt="">
+                    <img class="img_cart effect" src="static/samba.jpg" alt="">
                     <div class="title">
                         <div class="center">
                             <div class="name-theme">
@@ -171,39 +193,37 @@
             </div>
             <!-- Samba -->
             <div class="cart"><a href="#">
-                <img class="img_cart"
-                    src="https://d1qmdf3vop2l07.cloudfront.net/enigmatic-tuba.cloudvent.net/hash-store/203745562548eae607dca3d2fdeeb449.jpg"
-                    alt="">
-                <div class="title">
-                    <div class="center">
-                        <div class="name-theme">
-                            <div class="name">
-                                <h1>Samba</h1>
+                    <img class="img_cart"
+                        src="https://d1qmdf3vop2l07.cloudfront.net/enigmatic-tuba.cloudvent.net/hash-store/203745562548eae607dca3d2fdeeb449.jpg"
+                        alt="">
+                    <div class="title">
+                        <div class="center">
+                            <div class="name-theme">
+                                <div class="name">
+                                    <h1>Samba</h1>
+                                </div>
+                                <div class="status">
+                                    <h2>Dísponivel</h2>
+                                </div>
+                                <div class="price">
+                                    <h3>49,00</h3>
+                                </div>
                             </div>
-                            <div class="status">
-                                <h2>Dísponivel</h2>
+                            <div class="description">
+                                <h4>Uma linda loja online para vender os seus produtos</h4>
                             </div>
-                            <div class="price">
-                                <h3>49,00</h3>
-                            </div>
-                        </div>
-                        <div class="description">
-                            <h4>Uma linda loja online para vender os seus produtos</h4>
                         </div>
                     </div>
+                </a>
+                <div class="btn_for_cart">
+                    <a href="#">Buy Now <i class="fas fa-shopping-cart"></i></a>
+                    <a href="#">View <i class="far fa-eye"></i></a>
                 </div>
-            </a>
-            <div class="btn_for_cart">
-                <a href="#">Buy Now <i class="fas fa-shopping-cart"></i></a>
-                <a href="#">View <i class="far fa-eye"></i></a>
             </div>
-        </div>
-
-
-
-
-
-        </div>
+    </div>
+    <!-- Hamburger of Nav Import Js -->
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+    <script src="./js/hamburger.js"></script>
 </body>
 
 </html>
