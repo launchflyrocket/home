@@ -1,5 +1,5 @@
 01 Footer
 02 Active Nav Link
-03 Arraste para os lados para uma melhor experiência.
+03 
 04 Upload static themes
 05 clientes também compraram

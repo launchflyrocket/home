@@ -2,3 +2,19 @@
 body, html {
     font-family: 'Work Sans', sans-serif;
 }
+
+/* Touch Import CSS */
+.touch_side {
+display: none;
+}
+@media (max-width:768px) {
+    .touch_side {
+    display: block;
+    text-align: center;
+    }
+    .touch_side span {
+    font-size: 10px;
+    color: slategray;
+    }
+}
+/* Touch Import End */
