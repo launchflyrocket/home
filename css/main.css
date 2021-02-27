@@ -4,17 +4,56 @@ body, html {
 }
 
 /* Touch Import CSS */
+
 .touch_side {
-display: none;
+    display: none;
 }
+
 @media (max-width:768px) {
     .touch_side {
-    display: block;
-    text-align: center;
+        display: block;
+        text-align: center;
     }
     .touch_side span {
-    font-size: 10px;
-    color: slategray;
+        font-size: 10px;
+        color: slategray;
     }
 }
+
 /* Touch Import End */
+
+/* Footer Import CSS */
+
+.footer .width_center .icons {
+    color: black;
+    text-align: end;
+    word-spacing: 10px;
+    font-size: 36px;
+}
+
+.footer .width_center .icons i {
+    color: black;
+    text-align: center;
+}
+
+.footer .width_center .icons {
+    width: 90%;
+}
+
+.footer .copy {
+    width: 90%;
+    text-align: center;
+}
+
+.footer .copy span {
+    position: relative;
+    top: 25px;
+}
+
+.footer .width_center {
+    width: 90%;
+    margin: auto;
+    display: flex;
+}
+
+/* Footer Import End */

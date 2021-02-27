@@ -1,4 +1,4 @@
-01 Footer
+01 
 02 Active Nav Link
 03 
 04 Upload static themes
