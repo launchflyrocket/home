@@ -140,7 +140,7 @@
 
 .btn_for_cart a {
     background-color: #1db954;
-    padding: 12px 5px;
+    padding: 5px 5px;
     color: white;
     text-decoration: none;
     font-size: 18px;
@@ -148,7 +148,7 @@
     font-weight: 300;
     letter-spacing: 2px;
     text-transform: uppercase;
-    margin: 15px;
+    margin: 5px;
 }
 .btn_for_cart a:hover {
     background:  rgb(30, 215, 96);
