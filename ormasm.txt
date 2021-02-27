@@ -1,7 +1,7 @@
 01 Carousel
 02 Ligar carrinho UOL
-03 Newsletters
-04 Upload static themes
+03 
+04 
 05 clientes também compraram
 
 
