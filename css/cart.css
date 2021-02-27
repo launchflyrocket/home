@@ -109,7 +109,9 @@
     letter-spacing: .04em;
 }
 
-.title .center .description {}
+.title .center .description {
+    height: 65px;
+}
 
 .title .center .description h4 {
     color: rgb(108, 122, 137);
