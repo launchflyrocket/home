@@ -1,0 +1,29 @@
+.boogie-down {
+    width: 90%;
+    display: flex;
+}
+.img_theme_desktop {
+    width: 70%;
+    margin: auto;
+    display: block;
+}
+.img_theme_mobile {
+    max-width: 100px;
+    display: none;
+}
+.img_cart {
+    max-width: 200px;
+}
+.btn_for_cart a {
+    display: block;
+}
+@media (max-width:768px) {
+    /* Mobile Imagem */
+    .img_theme_mobile {
+        display: block;
+        margin: auto;
+    }
+    .img_theme_desktop {
+        display: none;
+    }
+}
