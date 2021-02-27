@@ -89,6 +89,7 @@
     font-size: 26px;
     color: #2a2f36;
     font-weight: 500;
+    margin: 20px 0px;
 }
 
 .name-theme .status h2 {
@@ -110,6 +111,7 @@
     font-weight: 300;
     font-size: 17px;
     letter-spacing: .04em;
+    margin: 20px 0px;
 }
 
 .title .center .description {
@@ -117,10 +119,11 @@
 }
 
 .title .center .description h4 {
-    color: rgb(108, 122, 137);
+    color: white;
     font-size: 16px;
     font-weight: 400;
     text-align: center;
+    padding: 10px;
 }
 
 .name-theme {
