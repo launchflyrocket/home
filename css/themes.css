@@ -43,7 +43,7 @@
     .img_theme_mobile {
         display: block;
         margin: auto;
-        width: 90%;
+        width: 50%;
     }
     .img_theme_desktop {
         display: none;
@@ -68,5 +68,9 @@
     }
     .name {
         width: 50%;
+    }
+    .footer {
+        position: relative;
+        top: 150px;
     }
 }
