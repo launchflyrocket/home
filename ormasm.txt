@@ -1,5 +1,10 @@
 01 Carousel
-02 Active Nav Link
+02 WhatsApp
 03 Newsletters
 04 Upload static themes
 05 clientes também compraram
+
+
+Blog
+Sobre
+Suporte ✓
