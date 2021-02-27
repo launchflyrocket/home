@@ -1,5 +1,5 @@
 .list_link {
-    width: 10%;
+    width: 15%;
 }
 .name-theme {
     display: flex;
@@ -34,7 +34,8 @@
 }
 
 .buy_or_views {
-    background: grey;
+    background: linear-gradient(to right, #009fff, #ec2f4b);
+    /* background: grey; */
     height: 500px;
 }
 
