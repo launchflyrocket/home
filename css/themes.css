@@ -1,30 +1,37 @@
 .list_link {
     width: 10%;
 }
+
 .boogie-down {
     width: 90%;
     display: flex;
     justify-content: center;
 }
+
 .img_theme_desktop {
     width: 90%;
     margin: auto;
     display: block;
 }
+
 .img_theme_mobile {
     width: 100%;
     display: none;
 }
+
 .img_cart {
     max-width: 200px;
 }
+
 .btn_for_cart a {
     display: block;
 }
+
 .buy_or_views {
     background: grey;
     height: 500px;
 }
+
 @media (max-width:768px) {
     /* Mobile Imagem */
     .img_theme_mobile {
@@ -45,6 +52,12 @@
         display: block;
     }
     .buy_or_views {
+        position: relative;
         background: grey;
+        top: 100px;
+        height: 300px;
+    }
+    .list_link {
+        width: 50%;
     }
 }
