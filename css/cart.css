@@ -115,14 +115,14 @@
 }
 
 .title .center .description {
-    height: 65px;
+    height: 70px;
 }
 
 .title .center .description h4 {
-    color: white;
+    color: rgb(108, 122, 137);
     font-size: 16px;
     font-weight: 400;
-    text-align: center;
+    text-align: justify;
     padding: 10px;
 }
 
