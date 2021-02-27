@@ -1,5 +1,6 @@
 .list_link {
-    width: 15%;
+    width: 10%;
+    background: rgba(128, 128, 128, 0.26);
 }
 .name-theme {
     display: flex;
@@ -7,7 +8,7 @@
     margin: auto;
 }
 .boogie-down {
-    width: 90%;
+    width: 85%;
     display: flex;
     justify-content: center;
 }
