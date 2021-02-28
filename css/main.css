@@ -23,7 +23,11 @@ body, html {
 /* Touch Import End */
 
 /* Footer Import CSS */
-
+.footer h1 {
+  text-align: end;
+  width: 90%;
+  color: darkgrey;
+}
 .footer .width_center .icons {
     color: black;
     text-align: end;
@@ -134,6 +138,9 @@ p{
     margin: auto;
     height: 200px;
 }
+.newsletter h1 {
+
+}
 form{
     display: flex;
     width: 50%;
@@ -204,6 +211,10 @@ input[type="submit"]:hover{
   background: linear-gradient(180deg, #FF6C54, #FFA754);
   cursor: pointer;
 }
+.newsletter__h1 {
+  text-align: center;
+}
+
 @media (max-width:768px) {
     .newsletter {
        /*  background: black; */
