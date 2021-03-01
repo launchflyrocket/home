@@ -111,6 +111,11 @@ body, html {
 /* Chat Import CSS End */
 /* Newsletter */
 /* Newsleteer End */
+.newsletter_main .newsletter_center h1 {
+  font-size: 26px;
+  font-weight: 300;
+  letter-spacing: 2px;
+}
 .newsletter_main {
   text-align: center;
   height: 100px;
@@ -134,10 +139,16 @@ body, html {
 
 @media (max-width:768px) {
   .info input {
-    width: 90%;
+    width: 100%;
+    background: transparent;
+    border: 1px solid black;
   }
   .import_newsletter form{
     text-align: end;
+  }
+  .newsletter_main {
+    height: 200px;
+    margin-top: 50px;
   }
 }
 
