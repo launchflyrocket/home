@@ -1,5 +1,5 @@
 01 Carousel.
-02 Newsletter
+02 
 03 
 04 Deixar projetos seguros.
 05 clientes também compraram.
@@ -8,7 +8,6 @@
 Blog
 Sobre ✓
 
-aumentar cart
-buttons Newsletter lado esquerdo
+
 disponivel
 como passar imagens para o lado carousel
