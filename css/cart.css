@@ -180,4 +180,11 @@
         color: black;
         text-align: left;
     }
+    .cart { 
+        margin: 0px 10px 0px -25px;
+    }
+    .img_cart {
+        /* width: 100%; */
+        max-width: 255px;
+    }
 }
