@@ -1,4 +1,4 @@
-01 Carousel.
+01 Carousel - Como passar imagens para o lado carousel.
 02 
 03 
 04 Deixar projetos seguros.
@@ -9,5 +9,5 @@ Blog
 Sobre ✓
 
 
-disponivel
-como passar imagens para o lado carousel
+
+
