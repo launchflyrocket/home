@@ -122,10 +122,16 @@ body, html {
 }
 .info input {
   background: transparent;
+  border: 1px solid black;
+  width: 400px;
+  padding: 13px;
+}
+/* .info input {
+  background: transparent;
     border: 1px solid black;
   width: 50%;
   padding: 10px;
-}
+} */
 .import_newsletter {
   width: 90%;
   margin: auto;
@@ -136,6 +142,8 @@ body, html {
 /* Left Center Right */
 .import_newsletter form {
   text-align: center;
+    display: flex;
+    justify-content: center;
 }
 .btn_newsletter {
   background: black;
@@ -154,11 +162,19 @@ body, html {
   }
   .import_newsletter form{
     text-align: end;
+    display: block;
+    width: 90%;
+    margin: auto;
   }
   .newsletter_main {
     height: 200px;
     margin-top: 50px;
   }
+  .newsletter_center {
+    max-width: 500px;
+    margin: auto;
+  }
+
 }
 
 /* Suporte Import CSS */
