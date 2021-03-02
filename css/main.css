@@ -107,6 +107,12 @@ body, html {
       font-size: 40px;
       color: white;
      }
+     .chat {
+      padding: 7px 3px;
+     }
+     .chat span {
+      padding: 3px 6px;
+     }
    }
 /* Chat Import CSS End */
 /* Newsletter */
