@@ -245,6 +245,16 @@ font-size: 26px;
     width: 90%;
     margin: auto;
   }
+  .suporte .width_suporte .text h1 {
+    text-align: left;
+    font-size: 16px;
+    font-weight: 400;
+  }
+  .suporte .width_suporte .text h2 {
+    text-align: left;
+    font-weight: 300;
+    font-size: 16px;
+  }
 }
 /* Suporte Import CSS End */
 
