@@ -193,12 +193,12 @@ body, html {
 .suporte a {
   background-color: #1db954;
 padding: 15px 40px;
-color: wheat;
+color: white;
 border-radius: 50px;
 text-decoration: none;
 font-weight: bold;
 font-size: 26px;
-text-transform: uppercase;
+
 }
 .suporte a:hover {
   background:  rgb(30, 215, 96);
@@ -208,6 +208,8 @@ text-transform: uppercase;
 }
 .suporte .width_suporte .text h2 {
   text-align: left;
+  
+  font-weight: normal;
 }
 @media (max-width:768px) {
   .suporte {
