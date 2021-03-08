@@ -123,7 +123,7 @@
     color: black;
     font-size: 16px;
     font-weight: 400;
-    text-align: justify;
+   
     padding: 10px;
     
     width: 100%;
@@ -179,6 +179,7 @@
     .title .center .description h4 {
         color: black;
         text-align: left;
+        width: 90%;
     }
     .cart { 
         margin: 0px 10px 0px -25px;
